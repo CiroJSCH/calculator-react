@@ -8,8 +8,8 @@ const Footer = () => {
         <p>Desarrollado por Ciro Schapert</p>
       </div>
       <div className="footer-social">
-        <p><AiFillLinkedin /></p>
-        <p><AiFillGithub /></p>
+        <a href="https://github.com/CiroJSCH" target="_blank"><AiFillLinkedin /></a>
+        <a href="#" target="_blank"><AiFillGithub /></a>
       </div>
     </footer>
   );
