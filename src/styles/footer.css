@@ -41,3 +41,10 @@ footer {
     transform: translate(0px, -5px);
     color: rgb(220, 220, 220);
 }
+
+
+@media screen and (max-width: 576px) {
+    .footer-name {
+        font-size: 1.4rem;
+    }
+  }
