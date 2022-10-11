@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+footer {
+    width: 100%;
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-name {
+    height: 50%;
+    background-color: rgb(5, 0, 77);
+
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.footer-social {
+    background-color: rgb(4, 0, 55);
+    height: 50%;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social > p {
+    color: white;
+    font-size: 2.6rem;
+    font-weight: bold;
+    transition: all .5s ease-in-out 0s; 
+}
+
+.footer-social > p:hover {
+    cursor: pointer;
+    transform: translate(0px, -5px);
+    color: rgb(220, 220, 220);
+}
