@@ -38,11 +38,42 @@ Button:hover{
     background-color: rgb(82, 185, 219);
 }
 
-@media screen and (max-width: 576px) {
-    .wide-button{
-        width: 11rem;
-    }  
+
+@media screen and (min-width: 280px) {
+    Button {
+        width: 3rem;
+        height: 3rem;
+    }
+    .wide-button {
+        width: 7rem;
+    }
     .tall-button {
-        height: 11rem;
+        height: 7rem;
+    }
+}
+
+@media screen and (min-width: 411px) {
+    Button {
+        width: 4rem;
+        height: 4rem;
+    }
+    .wide-button {
+        width: 9.5rem;
+    }
+    .tall-button {
+        height: 9.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    Button {
+        width: 5rem;
+        height: 5rem;
+    }
+    .wide-button {
+        width: 12rem;
+    }
+    .tall-button {
+        height: 12rem;
     }
 }

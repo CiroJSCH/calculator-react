@@ -33,8 +33,42 @@
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 280px) {
+  .display {
+    width: 80%;
+  }
+  .display-formula {
+    font-size: 1.1rem;
+  }
   .display-result {
-    margin-top: 2.3rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .display {
+    width: 90%;
+  }
+  .display-formula {
+    font-size: 1.3rem;
+  }
+  .display-result {
+    font-size: 1.7rem;
+    margin-top: 1.8rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .display {
+    width: 90%;
+  }
+  .display-formula {
+    font-size: 1.5rem;
+  }
+  .display-result {
+    font-size: 1.9rem;
+    margin-top: 1.8rem;
   }
 }
