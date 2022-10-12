@@ -65,11 +65,11 @@
     height: 40rem;
   }
   .calculator-body-function {
-    gap: 1.5rem;
-    margin: 0 1.5rem;
+    gap: 1.6rem;
+    margin: 0 1.6rem;
   }
   .calculator-body-numbers {
-    gap: 1.5rem;
+    gap: 1.6rem;
   }
   .calculator-body-operators {
     gap: 1.5rem;
@@ -79,7 +79,7 @@
 @media screen and (min-width: 768px) {
   .calculator {
     width: 30rem;
-    height: 45rem;
+    height: 50rem;
   }
   .calculator-body-function {
     gap: 2rem;
