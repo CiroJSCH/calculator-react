@@ -5,7 +5,7 @@
 }
 
 .calculator-body {
-  height: 70%;
+  height: 40rem;
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
 @media screen and (min-width: 768px) {
   .calculator {
     width: 30rem;
-    height: 50rem;
+    height: 55rem;
   }
   .calculator-body-function {
     gap: 2rem;
